@@ -1,0 +1,15 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: 
+0 : Sampah Anorganik
+1 : Sampah Organik
+
+roboflow:
+  workspace: muhammad-basit
+  project: rivora
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/muhammad-basit/rivora/dataset/1
